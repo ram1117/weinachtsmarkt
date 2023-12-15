@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import MenuBar from '@/components/MenuBar'
+import { montserrat, mountainChristmas } from '@/atoms/fonts'
 
 export const metadata: Metadata = {
   title: 'Weinachtsmarkt Berlin',
@@ -13,7 +14,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={`${montserrat.variable} ${mountainChristmas.variable}`}
+    >
       <body className={`h-screen w-screen`}>
         <MenuBar />
         {children}

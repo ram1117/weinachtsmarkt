@@ -1,6 +1,6 @@
 import { Montserrat, Mountains_of_Christmas } from 'next/font/google'
 
-export const mountainChristams = Mountains_of_Christmas({
+export const mountainChristmas = Mountains_of_Christmas({
   weight: ['400', '700'],
   style: 'normal',
   subsets: ['latin'],

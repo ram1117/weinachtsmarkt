@@ -14,8 +14,13 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        christmas: ['var(--font-christmas)'],
+        montserrat: ['var(--font-montserrat)'],
+      },
       colors: {
-        'menubar-bg': '#dc3d3d',
+        'app-primary': '#c01717',
+        'app-secondary': '#fbfbfb',
       },
     },
   },
