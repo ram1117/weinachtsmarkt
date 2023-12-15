@@ -12,7 +12,6 @@
     "lint:strict": "eslint --max-warnings=0"
   },
   "dependencies": {
-    "i": "^0.3.7",
     "leaflet": "^1.9.4",
     "next": "14.0.4",
     "npm": "^10.2.5",

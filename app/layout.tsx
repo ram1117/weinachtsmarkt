@@ -18,7 +18,7 @@ export default function RootLayout({
       lang="en"
       className={`${montserrat.variable} ${mountainChristmas.variable}`}
     >
-      <body className={`h-screen w-screen`}>
+      <body className={`h-screen w-screen font-montserrat`}>
         <MenuBar />
         {children}
       </body>
