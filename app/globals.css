@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.leaflet-popup-content-wrapper {
+  background: #c01717 !important;
+  color: #fbfbfb !important;
+}
+
+.leaflet-popup-close-button > * {
+  color: #fbfbfb !important;
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+
+.leaflet-popup-tip {
+  background: #c01717 !important;
+}

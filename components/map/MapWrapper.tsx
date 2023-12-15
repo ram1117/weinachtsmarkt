@@ -4,6 +4,8 @@ import Leaflet from 'leaflet'
 import { MapContainer, TileLayer } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import ZoomControls from './ZoomControls'
+import marketsData from '@/data/weinachtsmarkt'
+import MapMarkers from './MapMarkers'
 
 const Berlin = { lat: 52.520008, long: 13.404954 }
 
@@ -15,7 +17,7 @@ const MapWrapper = () => (
   <section className="w-max h-max relative">
     <MapContainer
       className="w-screen h-[95vh] lg:h-[92vh]"
-      zoom={11}
+      zoom={13}
       minZoom={9}
       center={[Berlin.lat, Berlin.long]}
       maxBounds={maximumBounds}
@@ -28,6 +30,9 @@ const MapWrapper = () => (
         noWrap
       />
       <ZoomControls />
+      {marketsData.map((item) => (
+        <MapMarkers marketData={item} key={item.id} />
+      ))}
     </MapContainer>
   </section>
 )
