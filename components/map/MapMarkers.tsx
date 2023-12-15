@@ -28,7 +28,7 @@ const MapMarkers = ({ marketData, setSelectedItem }: MapMarkersProps) => (
     <Popup>
       <div className="!bg-app-primary !text-app-secondary">
         <h2 className="font-bold text-sm lg:text-base max-w-[10rem] my-2 lg:my-1 lg:max-w-full">
-          {marketData.name}
+          {marketData?.rss_titel}
         </h2>
       </div>
     </Popup>
