@@ -1,4 +1,7 @@
-import MapWrapper from '@/components/map/MapWrapper'
+import dynamic from 'next/dynamic'
+const MapWrapper = dynamic(() => import('@/components/map/MapWrapper'), {
+  ssr: false,
+})
 
 const Home = () => {
   return (
