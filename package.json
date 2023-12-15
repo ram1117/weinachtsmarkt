@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "14.0.4",
@@ -34,6 +35,6 @@
       "eslint --max-warnings=0 --fix",
       "prettier --write"
     ],
-    "**/*.{hson,css,scss,md,webmanifest}": "prettier --write"
+    "**/*.{json,css,scss,md,webmanifest}": "prettier --write"
   }
 }
