@@ -1,9 +1,8 @@
-# BikeShare - DE - V3
+# Weinachtsmarkt
 
 ## Description
 
-**BikeShare - DE - V3** is an improved version of my previous [cycleshare-de](https://github.com/ram1117/cyclesharing-de) and [cyclesharing-de-v2](https://github.com/ram1117/cyclesharing-de-v2) project. The data is obtained from [CityBikes API](https://api.citybik.es/v2/).
-I have swtiched to using NextJS14, Typescript and TailwindCSS. I am fetching and processing the data Server Side, thereby signigicantly improving the page load speeds.
+**Weinachtsmarkt** is a React SPA developed with NextJS framework, TypeScript and TailwindCSS. Used react-leaflet to create an interactive map. Different Christmas markets in and around Berlin are plotted on the map. The user can find details about Christmas markets they are interested by clicking on the markers in the map.
 
 ## Getting Started
 
@@ -17,12 +16,12 @@ I have swtiched to using NextJS14, Typescript and TailwindCSS. I am fetching and
 - Clone the repo in your local machine.
 
   ```
-  https://github.com/ram1117/cyclesharing-de-v2.git
+  https://github.com/ram1117/weinachtsmarkt.git
   ```
 
 - Run the following command to install the project dependencies using npm
   ```
-  cd bikeshare-de-v3
+  cd weinachtsmarkt
   ```
   ```
   npm install
@@ -41,7 +40,7 @@ I have swtiched to using NextJS14, Typescript and TailwindCSS. I am fetching and
 Please raise a Github issue for errors or bugs.
 
 ```
-https://github.com/ram1117/bikeshare-de-v3/issues
+https://github.com/ram1117/weinachtsmarkt/issues
 ```
 
 ## Authors
