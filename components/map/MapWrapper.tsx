@@ -1,7 +1,7 @@
 'use client'
 
-import Leaflet from 'leaflet'
-import { MapContainer, TileLayer } from 'react-leaflet'
+import Leaflet, { LatLng, icon } from 'leaflet'
+import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import ZoomControls from './ZoomControls'
 import marketsData from '@/data/weinachtsmarkt'
@@ -16,6 +16,13 @@ const corner1 = Leaflet.latLng(52.733333, 12.583333)
 const corner2 = Leaflet.latLng(52.233056, 14.166667)
 const maximumBounds = Leaflet.latLngBounds(corner1, corner2)
 
+const LocationPin = icon({
+  iconUrl: '/icons/icon-current-pin.svg',
+  iconRetinaUrl: '/icons/icon-current-pin.svg',
+  iconSize: [32, 32],
+  iconAnchor: [16, 2],
+})
+
 const MapWrapper = () => {
   const [openPanel, setOpenPanel] = useState(false)
   const [selectedItem, setSelectedItem] = useState(null)
@@ -27,6 +34,8 @@ const MapWrapper = () => {
       setOpenPanel(false)
     }
   }, [selectedItem])
+
+  const [userLocation, setUserLocation] = useState<LatLng | null>(null)
 
   const findMarketData = (marketId: number | null) => {
     const data = marketsData.find((item) => item.id === marketId)
@@ -46,11 +55,14 @@ const MapWrapper = () => {
         zoomControl={false}
       >
         <TileLayer
-          attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
           noWrap
         />
-        <ZoomControls />
+        <ZoomControls setUserLocation={setUserLocation} />
+        {userLocation && (
+          <Marker position={userLocation} icon={LocationPin}></Marker>
+        )}
         <MarkerCluster>
           {marketsData.map((item) => (
             <MapMarkers

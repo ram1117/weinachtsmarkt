@@ -1,5 +1,7 @@
+import dynamic from 'next/dynamic'
 import ImageWrapper from '@/atoms/ImageWrapper'
-import MusicButton from './music/MusicButton'
+
+const MusicButton = dynamic(() => import('./music/MusicButton'), { ssr: false })
 import SnowGlobeIcon from '@/public/icons/icon-snow-globe.svg'
 
 const MenuBar = () => (

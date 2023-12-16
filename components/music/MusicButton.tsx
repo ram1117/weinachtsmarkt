@@ -14,7 +14,6 @@ const MusicButton = () => {
   music.volume = 0.1
 
   useEffect(() => {
-    console.log(playMusic)
     if (playMusic) {
       music.play()
     } else {

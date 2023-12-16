@@ -8,8 +8,8 @@ const createClusterCustomIcon = (cluster: any) =>
   divIcon({
     html: `<span>${cluster.getChildCount()}</span>`,
     className:
-      'bg-app-primary bg-opacity-100 text-app-secondary font-bold !flex items-center justify-center rounded-3xl border-app-secondary border-2 border-opacity-50',
-    iconSize: point(40, 40, true),
+      'bg-app-secondary text-app-primary font-bold text-base !flex items-center justify-center rounded-3xl',
+    iconSize: point(34, 34, true),
   })
 
 interface MapMarkerClusterProps {

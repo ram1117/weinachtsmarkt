@@ -21,6 +21,15 @@ const config: Config = {
       listStyleType: {
         square: 'square',
       },
+      keyframes: {
+        rotate: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
+      animation: {
+        'rotate-slow': 'rotate 1.5s linear infinite',
+      },
       colors: {
         'app-primary': '#c01717',
         'app-secondary': '#fbfbfb',
