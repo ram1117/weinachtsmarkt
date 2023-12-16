@@ -4,7 +4,7 @@ const nextConfig = {
     remotePatterns:[{
       protocol:'https',
       hostname:'openweathermap.org',
-      pathname:'/img/wn/**'
+      pathname:'/img/**'
     }]
   }
 }
