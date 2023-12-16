@@ -3,6 +3,7 @@ import './globals.css'
 import MenuBar from '@/components/MenuBar'
 import WeatherButton from '@/components/weather/WeatherButton'
 import { montserrat, mountainChristmas } from '@/atoms/fonts'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 export const metadata: Metadata = {
   title: 'Weinachtsmarkt Berlin',
@@ -23,6 +24,7 @@ export default function RootLayout({
         <MenuBar />
         <WeatherButton />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   )

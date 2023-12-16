@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@changey/react-leaflet-markercluster": "^4.0.0-rc1",
+    "@vercel/speed-insights": "^1.0.2",
     "leaflet": "^1.9.4",
     "next": "14.0.4",
     "npm": "^10.2.5",
