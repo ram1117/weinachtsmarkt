@@ -12,24 +12,24 @@ import {
 
 interface DetailsPanelProps {
   marketData: { [key: string]: any } | undefined
-  setOpenPanel: Dispatch<SetStateAction<boolean>>
+  setSelectedItem: Dispatch<SetStateAction<null>>
   openPanel: boolean
 }
 
 const DetailsPanel = ({
   marketData,
-  setOpenPanel,
+  setSelectedItem,
   openPanel,
 }: DetailsPanelProps) => {
   const showSidebar = openPanel ? 'right-0 ' : '-right-full'
   return (
     <section
-      className={`w-[80vw] sm:w-[55vw] md:w-[40vw] lg:w-[40vw] h-full max-w-[540px] absolute z-[999] bg-app-secondary top-0 text-app-primary p-2 lg:p-4 ease-in-out duration-500 ${showSidebar} shadow-2xl p-2 lg:p-4`}
+      className={`w-[80vw] sm:w-[55vw] md:w-[40vw] lg:w-[40vw] h-full max-w-[540px] absolute z-[999] bg-app-secondary top-0 text-app-primary p-2 lg:p-4 ease-in-out duration-500 ${showSidebar} shadow-2xl shadow-slate-500 p-2 lg:p-4`}
     >
       <div className="w-full flex flex-row-reverse justify-between items-start">
         <button
           type="button"
-          onClick={() => setOpenPanel(false)}
+          onClick={() => setSelectedItem(null)}
           className="rounded-full h-max w-max"
         >
           <ImageWrapper

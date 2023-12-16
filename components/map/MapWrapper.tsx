@@ -69,6 +69,7 @@ const MapWrapper = () => {
               marketData={item}
               setSelectedItem={setSelectedItem}
               selectedItem={selectedItem}
+              openPanel={openPanel}
               key={item.id}
             />
           ))}
@@ -77,7 +78,7 @@ const MapWrapper = () => {
       {
         <DetailsPanel
           marketData={findMarketData(selectedItem)}
-          setOpenPanel={setOpenPanel}
+          setSelectedItem={setSelectedItem}
           openPanel={openPanel}
         />
       }

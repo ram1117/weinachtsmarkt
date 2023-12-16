@@ -5,7 +5,7 @@ const MapWrapper = dynamic(() => import('@/components/map/MapWrapper'), {
 
 const Home = () => {
   return (
-    <main className="flex flex-col items-center">
+    <main className="flex flex-col items-center overflow-x-hidden">
       <MapWrapper />
     </main>
   )

@@ -26,6 +26,10 @@ const LocationFinder = ({
       setUserLocation(e.latlng)
       setIsLoading(false)
     },
+    locationerror(error) {
+      setIsLoading(false)
+      console.log(error.message)
+    },
   })
 
   return (

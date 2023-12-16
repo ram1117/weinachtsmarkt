@@ -12,7 +12,7 @@ const MarkerIcon = icon({
 const MarkerIconSelected = icon({
   iconUrl: '/icons/icon-tree-active.svg',
   iconRetinaUrl: '/icons/icon-tree-active.svg',
-  iconSize: [40, 40],
+  iconSize: [50, 50],
   iconAnchor: [22, 10],
 })
 
@@ -20,17 +20,23 @@ interface MapMarkersProps {
   marketData: { [key: string]: any }
   setSelectedItem: Dispatch<SetStateAction<null>>
   selectedItem: number | null
+  openPanel: boolean
 }
 
 const MapMarkers = ({
   marketData,
   setSelectedItem,
   selectedItem,
+  openPanel,
 }: MapMarkersProps) => {
   return (
     <Marker
       position={[marketData.lat, marketData.lng]}
-      icon={selectedItem === marketData.id ? MarkerIconSelected : MarkerIcon}
+      icon={
+        selectedItem === marketData.id && openPanel
+          ? MarkerIconSelected
+          : MarkerIcon
+      }
       eventHandlers={{
         mouseover: (event) => event.target.openPopup(),
         mouseout: (event) => event.target.closePopup(),

@@ -5,7 +5,7 @@ const MusicButton = dynamic(() => import('./music/MusicButton'), { ssr: false })
 import SnowGlobeIcon from '@/public/icons/icon-snow-globe.svg'
 
 const MenuBar = () => (
-  <nav className="h-[5vh] lg:h-[8vh] flex items-center justify-between bg-app-primary p-2 lg:p-4 shadow-2xl min-h-[50px]">
+  <nav className="h-[5vh] lg:h-[8vh] flex items-center justify-between bg-app-primary p-2 lg:p-4 min-h-[50px]">
     <div className=" flex gap-1 lg:gap-4 items-center">
       <ImageWrapper
         src={SnowGlobeIcon}
