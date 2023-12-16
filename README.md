@@ -7,6 +7,10 @@
 The data is obtained from [Open Data Berlin](https://daten.berlin.de/datensaetze/berliner-weihnachtsm%C3%A4rkte) <br>
 The website design is heavily influenced by [Berliner Weihnachtsmarkt-Finder](https://weihnachtsmaerkte.odis-berlin.de/?id=)
 
+## Live Demo
+
+Live Demo hosted [on Vercel](https://weinachtsmarkt.vercel.app/)
+
 ## Getting Started
 
 ### Dependencies
