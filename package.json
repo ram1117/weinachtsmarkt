@@ -12,6 +12,7 @@
     "lint:strict": "eslint --max-warnings=0"
   },
   "dependencies": {
+    "@changey/react-leaflet-markercluster": "^4.0.0-rc1",
     "leaflet": "^1.9.4",
     "next": "14.0.4",
     "npm": "^10.2.5",

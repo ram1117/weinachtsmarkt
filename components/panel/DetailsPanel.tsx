@@ -8,7 +8,7 @@ import {
   ClockIcon,
   InfoIcon,
   WebIcon,
-} from './icons'
+} from '../map/icons'
 
 interface DetailsPanelProps {
   marketData: { [key: string]: any } | undefined

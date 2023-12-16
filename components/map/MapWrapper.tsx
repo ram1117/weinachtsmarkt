@@ -6,7 +6,8 @@ import 'leaflet/dist/leaflet.css'
 import ZoomControls from './ZoomControls'
 import marketsData from '@/data/weinachtsmarkt'
 import MapMarkers from './MapMarkers'
-import DetailsPanel from './DetailsPanel'
+import MarkerCluster from './MarkerCluster'
+import DetailsPanel from '../panel/DetailsPanel'
 import { useEffect, useState } from 'react'
 
 const Berlin = { lat: 52.520008, long: 13.404954 }
@@ -50,14 +51,16 @@ const MapWrapper = () => {
           noWrap
         />
         <ZoomControls />
-        {marketsData.map((item) => (
-          <MapMarkers
-            marketData={item}
-            setSelectedItem={setSelectedItem}
-            selectedItem={selectedItem}
-            key={item.id}
-          />
-        ))}
+        <MarkerCluster>
+          {marketsData.map((item) => (
+            <MapMarkers
+              marketData={item}
+              setSelectedItem={setSelectedItem}
+              selectedItem={selectedItem}
+              key={item.id}
+            />
+          ))}
+        </MarkerCluster>
       </MapContainer>
       {
         <DetailsPanel
