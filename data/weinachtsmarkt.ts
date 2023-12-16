@@ -31,7 +31,7 @@ const marketsData = [
     bis: '2023-12-22',
     oeffnungszeiten: 'Mo-Fr 15:00-22:00 Uhr\nSa-So 12:00-22:00 Uhr',
     email: 'mailto:veranstaltungen@carnica.de',
-    w3: 'www.carnica-spectaculi.de',
+    w3: 'http://www.carnica-spectaculi.de',
     bemerkungen:
       'T\u00e4glich Programm: Akrobatik, Feuershow, Jonglage\nHistorischer Markt mit Handwerk und Handel. Holzriesenrad und Karussell.',
     lat: '52.5076327',
@@ -110,7 +110,7 @@ const marketsData = [
     oeffnungszeiten:
       'Mo-Sa 12:00 - 22:00 Uhr\n24.12.2023 geschlossen\n1. und 2. Weihnachstsfeiertag 12:00 - 22:00 Uhr\n31.12.2023 12:00 - 22:00 Uhr',
     email: 'mailto:info@schloss-weihnachtsmarkt.de',
-    w3: 'www.schloss-weihnachtsmarkt.de',
+    w3: 'http://www.schloss-weihnachtsmarkt.de',
     bemerkungen:
       'Instagram: schloss_weihnachtsmarkt\nFacebook: Weihnachtsmarkt am Schloss Charlottenburg',
     lat: '52.51992',
@@ -169,7 +169,7 @@ const marketsData = [
     oeffnungszeiten:
       'Mo-Fr 12:00-22:00 Uhr\nSa-So 11:00-22:00 Uhr\n\nHeiligabend geschlossen\n25.12. 11:00 - 21:00 Uhr\n26.12. 12:00 - 22:00 Uhr\n31.12. 12:00 - 20:00 Uhr\n07.01. 11:00 - 20:00 Uhr',
     email: 'mailto:ch.laubinger@laubinger.de',
-    w3: 'www.berliner-weihnachtszeit.de',
+    w3: 'http://www.berliner-weihnachtszeit.de',
     bemerkungen:
       'Informationen erhalten Sie auf folgender Seite:\nwww.berliner-weihnachtszeit.de\n\nHeiligabend geschlossen',
     lat: '52.519494',
@@ -191,7 +191,7 @@ const marketsData = [
     oeffnungszeiten:
       'So-Do 12:00 - 22:00 Uhr\nFr, Sa 12:00 - 23:00 Uhr\nHeiligabend 12:00 - 18:00 Uhr\nSilvester 12:00 - 01:00 Uhr\nVon 12:00 - 14:00 Uhr freier Eintritt',
     email: 'mailto:info@weihnachtsmarkt-berlin.de',
-    w3: 'www.weihnachtsmarkt-berlin.de',
+    w3: 'http://www.weihnachtsmarkt-berlin.de',
     bemerkungen:
       'Der WeihnachtsZauber Gendarmenmarkt an der Staatsoper findet auf Grund der klimagerechten Sanierung des Gendarmenmarktes in den Jahren 2022 bis 2024 auf den geschichtstr\u00e4chtigen Bebelplatz statt. Genie\u00dfen Sie dieses historische Ambiente im Zentrum von Berlin gegen\u00fcber der Humboldt-Universit\u00e4t. Hier hei\u00dfen wir unsere Besucher in gewohnt weihnachtlich-zauberhafter Atmosph\u00e4re willkommen.\nDie besten Aussteller, Gastronomen und K\u00fcnstler freuen sich auf Ihren Besuch!',
     lat: '52.513828',
@@ -249,7 +249,7 @@ const marketsData = [
     bis: '2023-12-23',
     oeffnungszeiten: 'So-Do 11:00-20:00 Uhr\nFr-Sa 11:00-22:00 Uhr',
     email: 'mailto:info@partner-fuer-spandau.de',
-    w3: 'www.spandauer-weihnachtsmarkt.de',
+    w3: 'http://www.spandauer-weihnachtsmarkt.de',
     bemerkungen:
       '50 Jahre Spandauer Weihnachtsmarkt 1974 \u2013 2023\nEintritt frei',
     lat: '52.53735',
@@ -327,7 +327,7 @@ const marketsData = [
     bis: '2023-12-22',
     oeffnungszeiten: 'Mo-Sa 11:00-21:00 Uhr\nSo 13:00-19:00 Uhr',
     email: 'mailto:info@juettner-entertainment.de',
-    w3: 'www.juettner-entertainment.de',
+    w3: 'http://www.juettner-entertainment.de',
     bemerkungen:
       'Eintritt Kostenfrei\nBarrierefrei \nMit weihnachtlichen Konzerten und Weihnachtlicher Gastronomie',
     lat: '52.584894',
@@ -347,7 +347,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: 'Fr 14.00 - 20:00 Uhr\nSa & So 11:00 - 20:00 Uhr',
     email: 'mailto:marktfeste@domaene-dahlem.de',
-    w3: 'www.domaene-dahlem.de',
+    w3: 'http://www.domaene-dahlem.de',
     bemerkungen:
       'Direkt am U-Bahnhof Dahlem Dorf. Im besonderen Ambiente des historischen Gutshofes erwarten Sie erlesenes Kunsthandwerk und besondere Geschenkideen, Bastelangebote f\u00fcr Kinder, weihnachtliche Kl\u00e4nge und handwerkliche saisonale Leckereien. Mit Bio-Weihnachtsbaum-Verkauf.\nEintrittspreise: regul\u00e4r 3,50\u20ac, erm\u00e4\u00dfigt 2,00\u20ac, Kinder bis 12 Jahren frei',
     lat: '52.45826',
@@ -367,7 +367,7 @@ const marketsData = [
     bis: '2024-01-07',
     oeffnungszeiten: '',
     email: 'mailto:info@wollenschlaeger-berlin.de',
-    w3: 'www.wollenschlaeger-berlin.de',
+    w3: 'http://www.wollenschlaeger-berlin.de',
     bemerkungen:
       'Ohne Eintritt\nBeleuchtung des gesamten Innenhofes, Kinderattraktionen\nUnterhaltung: Trompeter und Ch\u00f6re.\n\n24.12.2023 geschlossen',
     lat: '52.5176',
@@ -387,7 +387,7 @@ const marketsData = [
     bis: '2023-12-22',
     oeffnungszeiten: 'Mo - Sa 11:00-21:00 Uhr\nSo 13:00-19:00 Uhr',
     email: 'mailto:info@juettner-entertainment.de',
-    w3: 'www.juettner-entertainment.de',
+    w3: 'http://www.juettner-entertainment.de',
     bemerkungen:
       'Eintritt Kostenfrei\nBarrierefrei \nMit weihnachtlichen Konzerten und Weihnachtlicher Gastronomie',
     lat: '52.555554',
@@ -446,7 +446,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: '11:00-20:00 Uhr',
     email: 'mailto:i.zahn@spaethsche-baumschulen.de',
-    w3: 'www.spaethsche-baumschulen.de',
+    w3: 'http://www.spaethsche-baumschulen.de',
     bemerkungen:
       'Gro\u00dfes B\u00fchnenprogramm mit Konzerten, Monbijou-Theater und M\u00e4rchenerz\u00e4hlerin, Weihnachtsmann und Engel, Kremserfahrten und Weihnachtsbasteln, Feuer-Performances, 100 St\u00e4nde mit Geschenkideen, Weihnachtsbaumwald',
     lat: '52.45434',
@@ -486,7 +486,7 @@ const marketsData = [
     bis: '2023-12-02',
     oeffnungszeiten: '15:00 - 18:00 Uhr',
     email: 'mailto:kontakt@ass-berlin.org',
-    w3: 'www.ass-berlin.org',
+    w3: 'http://www.ass-berlin.org',
     bemerkungen:
       'Freuen Sie sich auf den Weihnachtsmann und die heiligen drei K\u00f6nige, die Sie auf dem Stiftungsgel\u00e4nde begr\u00fc\u00dfen werden. St\u00f6bern Sie nach individuellen Geschenken f\u00fcr Ihre Liebsten an den zahlreichen Marktst\u00e4nden und genie\u00dfen Sie einen hei\u00dfen Punsch, Waffeln, Pelmeni und vieles mehr. Ein stimmungsvolles B\u00fchnenprogramm, eine Feuershow und tolle Mitmach-Aktionen f\u00fcr Gro\u00df und Klein sorgen f\u00fcr vorweihnachtliche Atmosph\u00e4re. Kinderherzen h\u00f6her schlagen lassen ein Karussell, eine Eisenbahn, ein geschm\u00fcckter Streichelzoo und vieles mehr. Der Eintritt ist frei.',
     lat: '52.5912',
@@ -505,7 +505,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: 'Sa 12:00-20:00 Uhr\nSo 11:00-19:00 Uhr',
     email: 'mailto:post@weihnachtsmarkt-sophienstrasse.de',
-    w3: 'www.weihnachtsmarkt-sophienstrasse.de',
+    w3: 'http://www.weihnachtsmarkt-sophienstrasse.de',
     bemerkungen:
       'Direkt neben den Hackeschen H\u00f6fen in einer der \u00e4ltesten Stra\u00dfen von Berlin, erwartet Sie ein au\u00dfergew\u00f6hnliches Angebot an einzigartiger Designer- und K\u00fcnstlerware. Das einmalige Konzept wurde bereits 1996 mit dem 1.Preis des Umweltwettbewerbs honoriert und hebt sich von den anderen Weihnachtsm\u00e4rkten der Stadt wohltuend ab.\n\nFreier Eintritt!',
     lat: '52.525647',
@@ -525,7 +525,7 @@ const marketsData = [
     bis: '2023-12-02',
     oeffnungszeiten: '14:00-22:00 Uhr',
     email: 'mailto:buero@dorfkirche-alt-buckow.de',
-    w3: 'www.dorfkirche-alt-buckow.de',
+    w3: 'http://www.dorfkirche-alt-buckow.de',
     bemerkungen:
       'rund um das Gemeindehaus\n13:30 Uhr Er\u00f6ffnungsandacht\nab 14:00 Uhr Kinderaktivit\u00e4ten, Speisen und Getr\u00e4nke',
     lat: '52.42203',
@@ -545,7 +545,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: 'Samstags: 15-19 Uhr \nSonntag: 12-18 Uhr',
     email: 'mailto:veranstaltungen@suedgelaende.de',
-    w3: 'www.natur-park-suedgelaende.de',
+    w3: 'http://www.natur-park-suedgelaende.de',
     bemerkungen:
       'Adventszauber mit weihnachtlichen M\u00e4rchen und Musik, Sound-Installationen, Kerzenlabyrinth, fabelhaften Leuchtgestalten und vielem mehr.\nDer Natur Park S\u00fcdgel\u00e4nde h\u00fcllt sich an den ersten beiden Adventswochenenden in ein weihnachtliches und m\u00e4rchenhaftes Gewand. Licht- und Soundinstallationen verleihen dem Park eine besondere, festliche Atmosph\u00e4re ohne die Hektik von klassischen Weihnachtsm\u00e4rkten und mit einer kleinen Auswahl an Verkaufsst\u00e4nden. \nEintrittspreis: 1 Euro (ab 14 Jahren).\nBitte die Sonder\u00f6ffnungszeiten beachten.',
     lat: '52.45891',
@@ -566,7 +566,7 @@ const marketsData = [
     oeffnungszeiten:
       'Mo - Fr: 14:00 - 20:00 Uhr\nSa 12:00 - 22:00 Uhr\nSo 12:00 - 18:00 Uhr',
     email: 'mailto:gsm@prenzlau.de',
-    w3: 'www.prenzlau.de',
+    w3: 'http://www.prenzlau.de',
     bemerkungen: 'freier Eintritt',
     lat: '53.31331',
     lng: '13.85697',
@@ -585,7 +585,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: '12:00 - 18:00 Uhr',
     email: 'mailto:info@flaeming.net',
-    w3: 'www.naturpark-hoher-flaeming.de',
+    w3: 'http://www.naturpark-hoher-flaeming.de',
     bemerkungen:
       'Tradioneller Familienweihnachtsmarkt im Naturparkzentrum mit vielen Mitmach-Angeboten, Fackelwanderung zur Burg Rabenstein, Lichtergarten, Freiluftkino, Puppentheater, M\u00e4rchenerz\u00e4hlerin und vielem mehr. Der Eintritt ist frei!',
     lat: '52.04136',
@@ -605,7 +605,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: '13:00-19:00 Uhr',
     email: 'mailto:Veranstaltungen-pressestelle@ba-ts.berlin.de',
-    w3: 'www.berlin.de/ba-ts/lichtenrader-lichtermarkt.de',
+    w3: 'http://www.berlin.de/ba-ts/lichtenrader-lichtermarkt.de',
     bemerkungen:
       'Er ist eine feste Gr\u00f6\u00dfe in den Veranstaltungskalendern im vorweihnachtlichen Berlin: der Lichtenrader Lichtermarkt. Rund 100 Vereine, Initiativen und gemeinn\u00fctzige Organisationen pr\u00e4sentieren ihre Angebote an einem Stand und l\u00e4uten die Adventszeit in Tempelhof-Sch\u00f6neberg mit ein. \nEs werden unter anderem verschiedenste Bastel- und Handarbeiten, Keramik, Holzwaren, Imkererzeugnisse, Nostalgisches, kunstgewerbliche Arbeiten und Spielsachen zum Verkauf angeboten. Kulinarische K\u00f6stlichkeiten laden an den weihnachtlich geschm\u00fcckten St\u00e4nden in friedvoller Atmosph\u00e4re des ehemaligen Dorfkerns zum Verweilen ein. Lassen Sie sich vom Lichterglanz verzaubern und in vorweihnachtliche Stimmung versetzen! \nEintritt frei! \n\nDer Lichtermarkt ist nicht gewinnorientiert. Die Einnahme\u00fcbersch\u00fcsse werden sozialen Zwecken zugef\u00fchrt.',
     lat: '52.39112',
@@ -663,7 +663,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: '12:00 - 19:00 Uhr',
     email: 'mailto:kommunikation@evangelisches-johannesstift.de',
-    w3: 'www.evangelisches-johannesstift.de',
+    w3: 'http://www.evangelisches-johannesstift.de',
     bemerkungen:
       '11 Uhr Gottesdienst\nDanach Markt rund um die Stiftskirche (12-19 Uhr). Posaunenmusik, christliche Weihnachtstraditionen.',
     lat: '52.56992',
@@ -683,7 +683,7 @@ const marketsData = [
     bis: '2023-12-04',
     oeffnungszeiten: '14:00 - 22:00 Uhr',
     email: 'mailto:info@spreedampfer.de',
-    w3: 'www.arenamarket.berlin',
+    w3: 'http://www.arenamarket.berlin',
     bemerkungen:
       'Ab 18 Jahren\nKommen Sie gerne zum Geilsten Winterfest: Naughty Xmas Market Bei Arena Market Berlin.\nLusty Ice bringt Ihnen diese neue Naughty Summer Market. Mit Shows, Workshops, Kinky Art Exhibitions und 30+ S+ St\u00e4nden. Wir sind zur\u00fcck und pr\u00e4sentieren Ihnen einige sch\u00f6ne neue St\u00e4nde und Produkte!\nHolen Sie sich ein paar kinky Sachen f\u00fcr Ihre Liebhaber, Familie und Freunde.\nWir haben von 13:00-21:00 Uhr mit Gl\u00fchwein, Sex-tipps und sexy Toys ge\u00f6ffnet!\nWorkshops, um mehr \u00fcber s*x zu lernen.\nab 18 Jahren\n5\u20ac Eintritt',
     lat: '52.49632',
@@ -702,7 +702,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: '12:00 - 17:00',
     email: 'mailto:kirche-luebars@web.de',
-    w3: 'www.noomi-evangelisch.de',
+    w3: 'http://www.noomi-evangelisch.de',
     bemerkungen: '',
     lat: '52.62064',
     lng: '13.35622',
@@ -739,7 +739,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: '12:00-19:00',
     email: 'mailto:info@grueneliga-berlin.de',
-    w3: 'www.grueneliga-berlin.de',
+    w3: 'http://www.grueneliga-berlin.de',
     bemerkungen:
       'Rund 60 H\u00e4ndler*innen bieten hochwertige Spielwaren, Textilien, Kunsthandwerk und K\u00f6stlichkeiten aus der ganzen Welt. Zum Angebot geh\u00f6ren ausschlie\u00dflich Produkte, die soziale und \u00f6kologische Standards erf\u00fcllen. F\u00fcr das leibliche Wohl sorgen unsere \u00d6ko-Imbiss- und Getr\u00e4nkeanbieter mit ihrem frischen, reichhaltigen Angebot. Kollwitzplatz',
     lat: '52.53667',
@@ -759,7 +759,7 @@ const marketsData = [
     bis: '2023-12-03',
     oeffnungszeiten: '12:00 -18:00 Uhr',
     email: 'mailto:marktzeit@posteo.de',
-    w3: 'www.marktzeit.berlin',
+    w3: 'http://www.marktzeit.berlin',
     bemerkungen: 'Programm auf der Homepage',
     lat: '52.517142',
     lng: '13.34309',
@@ -798,7 +798,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: 'Fr 14:00-20:00 Uhr\nSa, So 12:00-20:00 Uhr',
     email: 'mailto:karstenemail@gmx.de',
-    w3: 'www.lehmannsbauernhof.de',
+    w3: 'http://www.lehmannsbauernhof.de',
     bemerkungen:
       'Auf einem denkmalgesch\u00fctzten Vierseitenhof, direkt gegen\u00fcber der Dorfkirche an der romantischen Dorfaue gelegen, findet zum 28. Mal ein famili\u00e4r gepr\u00e4gter Weihnachtsmarkt statt. Der Fokus liegt auf Kunsthandwerk und au\u00dfergew\u00f6hnlichen Geschenkideen. \nEin B\u00fchnenprogramm, eine M\u00e4rchenerz\u00e4hlerin sowie Ponyreiten und die Tiere des Hofes runden das Erlebnis bei freiem Eintritt ab.',
     lat: '52.41206',
@@ -819,7 +819,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: 'Fr 14.00 - 20:00 Uhr\nSa & So 11:00 - 20:00 Uhr',
     email: 'mailto:marktfeste@domaene-dahlem.de',
-    w3: 'www.domaene-dahlem.de',
+    w3: 'http://www.domaene-dahlem.de',
     bemerkungen:
       'Direkt am U-Bahnhof Dahlem Dorf. Im besonderen Ambiente des historischen Gutshofes erwarten Sie erlesenes Kunsthandwerk und besondere Geschenkideen, Bastelangebote f\u00fcr Kinder, weihnachtliche Kl\u00e4nge und handwerkliche saisonale Leckereien. Mit Bio-Weihnachtsbaum-Verkauf.\nEintrittspreise: regul\u00e4r 3,50\u20ac, erm\u00e4\u00dfigt 2,00\u20ac, Kinder bis 12 Jahren frei',
     lat: '52.45826',
@@ -839,7 +839,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: 'noch nicht bekannt',
     email: 'mailto:info@juettner-entertainment.de',
-    w3: 'www.juettner-entertainment.de',
+    w3: 'http://www.juettner-entertainment.de',
     bemerkungen:
       'Eintritt Kostenfrei\nBarrierefrei \nMit weihnachtlichen Konzerten und Weihnachtlicher Gastronomie',
     lat: '52.25524',
@@ -860,7 +860,7 @@ const marketsData = [
     oeffnungszeiten:
       'Fr. 18:00 \u2013 02:00 Uhr \nSa/So 11:00 \u2013 21:00 Uhr',
     email: 'mailto:info@spreedampfer.de',
-    w3: 'www.arenamarket.berlin',
+    w3: 'http://www.arenamarket.berlin',
     bemerkungen:
       'Weihnachten r\u00fcckt immer n\u00e4her und auch das *Italian Street Food Festival \u2013 Christmas Klimbim Edition*, das dieses Jahr am Freitag, den 8., Samstag, den 9. und Sonntag, den 10. Dezember wieder nach Berlin im Arena Market.\n\nEs ist die perfekte Zeit, k\u00f6stliche italienische Spezialit\u00e4ten zu probieren, typische Produkte aus der italienischen Weihnachtstradition zu entdecken, sich f\u00fcr Weihnachtsgeschenke f\u00fcr Ihre Lieben inspirieren zu lassen, sich mit Freunden bei einem Glas dampfenden Gl\u00fchwein am Lagerfeuer zu treffen und sich selbst zu umgeben mit einer magischen und fr\u00f6hlichen Atmosph\u00e4re. \n\nAlles 100 % italienisch verifiziert.\n\nUnd dieses Jahr gibt es eine gro\u00dfe Neuigkeit: In der Nacht zwischen Freitag, dem 8., und Samstag, dem 9. Dezember, werden wir den Markt mit einer gro\u00dfen rein italienischen Party mit DJ-Set und besonderen Getr\u00e4nken er\u00f6ffnen. Eintritt ist 4\u20ac Kinder unter 12 Jahren Eintritt frei!',
     lat: '52.49632',
@@ -900,7 +900,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: 'Sa 12:00 - 19:00 Uhr\nSo 11:00 - 18:00 Uhr',
     email: 'mailto:tourismus@neuzelle.de',
-    w3: 'www.neuzelle.de',
+    w3: 'http://www.neuzelle.de',
     bemerkungen:
       'Freier Eintritt auf das Festgel\u00e4nde \nein m\u00e4rchenhafter Weihnachtszauber im hellen Lichterglanz des Klosters Neuzelle\nKonzertangebote im Kloster',
     lat: '52.08958',
@@ -920,7 +920,7 @@ const marketsData = [
     bis: '2023-12-09',
     oeffnungszeiten: '14:00-18:00 Uhr',
     email: 'mailto:christine.krankemann@web.de',
-    w3: 'www.stgeorgesberlin.de',
+    w3: 'http://www.stgeorgesberlin.de',
     bemerkungen:
       'Freier Eintritt, englische Weihnachtsmusik und Weihnachtsk\u00f6stlichkeiten',
     lat: '52.5124',
@@ -940,7 +940,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: 'Sa 09.12.: 13:00-22:00\nSo 10.12.: 13:00-19:00',
     email: 'mailto:ikarus@sozdia.de',
-    w3: 'www.ikarus.sozdia.de',
+    w3: 'http://www.ikarus.sozdia.de',
     bemerkungen:
       'Trabrennbahn Karlshorst, https://www.facebook.com/ikarusstadtteilzentrum',
     lat: '52.4753',
@@ -979,7 +979,7 @@ const marketsData = [
     bis: '2023-12-09',
     oeffnungszeiten: '12:00-18:00 Uhr',
     email: 'mailto:buero@lindenkirche.de',
-    w3: 'www.lindenkirche.de/',
+    w3: 'http://www.lindenkirche.de/',
     bemerkungen:
       'Kunsthandwerk, Kinderkarussell, Cafeteria, B\u00fccher, Angebote f\u00fcr Kinder, Musik u.v.m.\nJohannisberger Str. 15a / Ecke Homburger Str. 48',
     lat: '52.47452',
@@ -998,7 +998,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: 'Sa & So 13:00-20:00 Uhr',
     email: 'mailto:sport@tsv-marienfelde.de',
-    w3: 'www.tsv-marienfelde.de',
+    w3: 'http://www.tsv-marienfelde.de',
     bemerkungen: '',
     lat: '52.41264',
     lng: '13.36751',
@@ -1017,7 +1017,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: 'Samstags: 15-19 Uhr \nSonntag: 12-18 Uhr',
     email: 'mailto:veranstaltungen@suedgelaende.de',
-    w3: 'www.natur-park-suedgelaende.de',
+    w3: 'http://www.natur-park-suedgelaende.de',
     bemerkungen:
       'Adventszauber mit weihnachtlichen M\u00e4rchen und Musik, Sound-Installationen, Kerzenlabyrinth, fabelhaften Leuchtgestalten und vielem mehr.\nDer Natur Park S\u00fcdgel\u00e4nde h\u00fcllt sich an den ersten beiden Adventswochenenden in ein weihnachtliches und m\u00e4rchenhaftes Gewand. Licht- und Soundinstallationen verleihen dem Park eine besondere, festliche Atmosph\u00e4re ohne die Hektik von klassischen Weihnachtsm\u00e4rkten und mit einer kleinen Auswahl an Verkaufsst\u00e4nden. \nEintrittspreis: 1 Euro (ab 14 Jahren).\nBitte die Sonder\u00f6ffnungszeiten beachten.',
     lat: '52.45891',
@@ -1037,7 +1037,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: 'Sa 12:00-20:00 Uhr\nSo 11:00-19:00 Uhr',
     email: 'mailto:post@weihnachtsmarkt-sophienstrasse.de',
-    w3: 'www.weihnachtsmarkt-sophienstrasse.de',
+    w3: 'http://www.weihnachtsmarkt-sophienstrasse.de',
     bemerkungen:
       'Direkt neben den Hackeschen H\u00f6fen in einer der \u00e4ltesten Stra\u00dfen von Berlin, erwartet Sie ein au\u00dfergew\u00f6hnliches Angebot an einzigartiger Designer- und K\u00fcnstlerware. Das einmalige Konzept wurde bereits 1996 mit dem 1.Preis des Umweltwettbewerbs honoriert und hebt sich von den anderen Weihnachtsm\u00e4rkten der Stadt wohltuend ab.\n\nFreier Eintritt!',
     lat: '52.525647',
@@ -1057,7 +1057,7 @@ const marketsData = [
     bis: '2023-12-09',
     oeffnungszeiten: '13:00-19:00 Uhr',
     email: 'mailto:marco-rebhann@gmx.de',
-    w3: 'www.kaulsdorfer-weihnachtsmarkt.de',
+    w3: 'http://www.kaulsdorfer-weihnachtsmarkt.de',
     bemerkungen:
       'Jubil\u00e4um 25. Markt\nim alten Dorfkern rund um die Kirche, Handwerker, gemeinm\u00fctzige Organisationen stellen aus und verkaufen',
     lat: '52.50836',
@@ -1077,7 +1077,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: '11:00-18:00',
     email: 'mailto:info@kunsthand-berlin.de',
-    w3: 'www.kunsthand-berlin.de',
+    w3: 'http://www.kunsthand-berlin.de',
     bemerkungen: 'N\u00e4he S-Bahnhof Frohnau',
     lat: '52.63313',
     lng: '13.289572',
@@ -1095,7 +1095,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: '11:00-20:00 Uhr',
     email: 'mailto:i.zahn@spaethsche-baumschulen.de',
-    w3: 'www.spaethsche-baumschulen.de',
+    w3: 'http://www.spaethsche-baumschulen.de',
     bemerkungen:
       'Gro\u00dfes B\u00fchnenprogramm mit Konzerten, Monbijou-Theater und M\u00e4rchenerz\u00e4hlerin, Weihnachtsmann und Engel, Kremserfahrten und Weihnachtsbasteln, Feuer-Performances, 100 St\u00e4nde mit Geschenkideen, Weihnachtsbaumwald',
     lat: '52.45434',
@@ -1175,7 +1175,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: '12:00 -18:00 Uhr',
     email: 'mailto:marktzeit@posteo.de',
-    w3: 'www.marktzeit.berlin',
+    w3: 'http://www.marktzeit.berlin',
     bemerkungen: 'Programm auf der Homepage',
     lat: '52.51714',
     lng: '13.34309',
@@ -1193,7 +1193,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: '12:00-19:00',
     email: 'mailto:info@grueneliga-berlin.de',
-    w3: 'www.grueneliga-berlin.de',
+    w3: 'http://www.grueneliga-berlin.de',
     bemerkungen:
       'Rund 60 H\u00e4ndler*innen bieten hochwertige Spielwaren, Textilien, Kunsthandwerk und K\u00f6stlichkeiten aus der ganzen Welt. Zum Angebot geh\u00f6ren ausschlie\u00dflich Produkte, die soziale und \u00f6kologische Standards erf\u00fcllen. F\u00fcr das leibliche Wohl sorgen unsere \u00d6ko-Imbiss- und Getr\u00e4nkeanbieter mit ihrem frischen, reichhaltigen Angebot. Kollwitzplatz',
     lat: '52.53667',
@@ -1212,7 +1212,7 @@ const marketsData = [
     bis: '2023-12-10',
     oeffnungszeiten: '10:00-16:30 Uhr',
     email: 'mailto:info@nowkoelln.de',
-    w3: 'www.nowkoelln.de',
+    w3: 'http://www.nowkoelln.de',
     bemerkungen: 'Der Flowmarkt zum 2. Advent\nEintritt frei',
     lat: '52.49268',
     lng: '13.43076',
@@ -1231,7 +1231,7 @@ const marketsData = [
     bis: '2023-12-17',
     oeffnungszeiten: 'Fr 14:00-20:00 Uhr\nSa, So 12:00-20:00 Uhr',
     email: 'mailto:karstenemail@gmx.de',
-    w3: 'www.lehmannsbauernhof.de',
+    w3: 'http://www.lehmannsbauernhof.de',
     bemerkungen:
       'Auf einem denkmalgesch\u00fctzten Vierseitenhof, direkt gegen\u00fcber der Dorfkirche an der romantischen Dorfaue gelegen, findet zum 28. Mal ein famili\u00e4r gepr\u00e4gter Weihnachtsmarkt statt. Der Fokus liegt auf Kunsthandwerk und au\u00dfergew\u00f6hnlichen Geschenkideen. \nEin B\u00fchnenprogramm, eine M\u00e4rchenerz\u00e4hlerin sowie Ponyreiten und die Tiere des Hofes runden das Erlebnis bei freiem Eintritt ab.',
     lat: '52.41206',
@@ -1291,7 +1291,7 @@ const marketsData = [
     bis: '2023-12-17',
     oeffnungszeiten: 'Fr 14.00 - 20:00 Uhr\nSa & So 11:00 - 20:00 Uhr',
     email: 'mailto:marktfeste@domaene-dahlem.de',
-    w3: 'www.domaene-dahlem.de',
+    w3: 'http://www.domaene-dahlem.de',
     bemerkungen:
       'Direkt am U-Bahnhof Dahlem Dorf. Im besonderen Ambiente des historischen Gutshofes erwarten Sie erlesenes Kunsthandwerk und besondere Geschenkideen, Bastelangebote f\u00fcr Kinder, weihnachtliche Kl\u00e4nge und handwerkliche saisonale Leckereien. Mit Bio-Weihnachtsbaum-Verkauf.\nEintrittspreise: regul\u00e4r 3,50\u20ac, erm\u00e4\u00dfigt 2,00\u20ac, Kinder bis 12 Jahren frei',
     lat: '52.45826',
@@ -1331,7 +1331,7 @@ const marketsData = [
     bis: '2023-12-17',
     oeffnungszeiten: '12:00 - 21:00 Uhr',
     email: 'mailto:info@spreedampfer.de',
-    w3: 'www.arenamarket.berlin',
+    w3: 'http://www.arenamarket.berlin',
     bemerkungen:
       'Unser allj\u00e4hrlicher authentischer Weihnachtsmarkt f\u00fcr Jung und Alt! Ausgew\u00e4hlte Anbieter lokaler Kunsthandwerksl\u00e4den. Jazzband, Zauberer und unsere DJs Flowww, Fixie Fate, Naughty. F\u00fcr die kleinen geht\u2019s in den Kinderraum mit Programm. Street Food-Markt. Besondere G\u00e4ste und mehr!\nEintritt 4 Euro\nKinder unter 12 Jahren Eintritt frei.',
     lat: '52.49632',
@@ -1371,7 +1371,7 @@ const marketsData = [
     bis: '2023-12-16',
     oeffnungszeiten: '10:00-18:00 Uhr',
     email: 'mailto:info@diemarktplaner.de',
-    w3: 'www.diemarktplaner.de',
+    w3: 'http://www.diemarktplaner.de',
     bemerkungen:
       'Eintritt frei, Live Musik, Schwedenfeuer,\nWeihnachtsmarkt integriert in einen regionalen Wochenmarkt',
     lat: '52.46623',
@@ -1390,7 +1390,7 @@ const marketsData = [
     bis: '2023-12-17',
     oeffnungszeiten: '11:00-20:00 Uhr',
     email: 'mailto:i.zahn@spaethsche-baumschulen.de',
-    w3: 'www.spaethsche-baumschulen.de',
+    w3: 'http://www.spaethsche-baumschulen.de',
     bemerkungen:
       'Gro\u00dfes B\u00fchnenprogramm mit Konzerten, Monbijou-Theater und M\u00e4rchenerz\u00e4hlerin, Weihnachtsmann und Engel, Kremserfahrten und Weihnachtsbasteln, Feuer-Performances, 100 St\u00e4nde mit Geschenkideen, Weihnachtsbaumwald',
     lat: '52.45434',
@@ -1431,7 +1431,7 @@ const marketsData = [
     bis: '2023-12-17',
     oeffnungszeiten: 'Sa 12:00-22:00 Uhr\nSo 11:00-20:00 Uhr',
     email: 'mailto:info@juettner-entertainment.de',
-    w3: 'www.juettner-entertainment.de',
+    w3: 'http://www.juettner-entertainment.de',
     bemerkungen:
       'Eintritt Kostenfrei\nBarrierefrei \nWeihnachtliche Konzerte auf 2 B\u00fchnen, Kunsthandwerk, Kinderfahrgesch\u00e4fte und weihnachtliche Gastronomie',
     lat: '52.4202',
@@ -1450,7 +1450,7 @@ const marketsData = [
     bis: '2023-12-17',
     oeffnungszeiten: 'Sa 12:00-20:00 Uhr\nSo 11:00-19:00 Uhr',
     email: 'mailto:post@weihnachtsmarkt-sophienstrasse.de',
-    w3: 'www.weihnachtsmarkt-sophienstrasse.de',
+    w3: 'http://www.weihnachtsmarkt-sophienstrasse.de',
     bemerkungen:
       'Direkt neben den Hackeschen H\u00f6fen in einer der \u00e4ltesten Stra\u00dfen von Berlin, erwartet Sie ein au\u00dfergew\u00f6hnliches Angebot an einzigartiger Designer- und K\u00fcnstlerware. Das einmalige Konzept wurde bereits 1996 mit dem 1.Preis des Umweltwettbewerbs honoriert und hebt sich von den anderen Weihnachtsm\u00e4rkten der Stadt wohltuend ab.\n\nFreier Eintritt!',
     lat: '52.525647',
@@ -1509,7 +1509,7 @@ const marketsData = [
     bis: '2023-12-17',
     oeffnungszeiten: '12:00-19:00',
     email: 'mailto:info@grueneliga-berlin.de',
-    w3: 'www.grueneliga-berlin.de',
+    w3: 'http://www.grueneliga-berlin.de',
     bemerkungen:
       'Rund 60 H\u00e4ndler*innen bieten hochwertige Spielwaren, Textilien, Kunsthandwerk und K\u00f6stlichkeiten aus der ganzen Welt. Zum Angebot geh\u00f6ren ausschlie\u00dflich Produkte, die soziale und \u00f6kologische Standards erf\u00fcllen. F\u00fcr das leibliche Wohl sorgen unsere \u00d6ko-Imbiss- und Getr\u00e4nkeanbieter mit ihrem frischen, reichhaltigen Angebot. Kollwitzplatz',
     lat: '52.53667',
@@ -1529,7 +1529,7 @@ const marketsData = [
     bis: '2023-12-17',
     oeffnungszeiten: '12:00 -18:00 Uhr',
     email: 'mailto:marktzeit@posteo.de',
-    w3: 'www.marktzeit.berlin',
+    w3: 'http://www.marktzeit.berlin',
     bemerkungen: 'Programm auf der Homepage',
     lat: '52.517142',
     lng: '13.34309',
@@ -1548,7 +1548,7 @@ const marketsData = [
     bis: '2023-12-23',
     oeffnungszeiten: 'Freitag 14:00 - 22:00 Uhr\nSamstag 12:00 - 22:00 Uhr',
     email: 'mailto:info@juettner-entertainment.de',
-    w3: 'www.hauptstadtkultur.berlin',
+    w3: 'http://www.hauptstadtkultur.berlin',
     bemerkungen:
       'Es  wird ein weihnachtliches B\u00fchnenprogramm geben.  Der Eintritt ist frei.',
     lat: '52.484916',

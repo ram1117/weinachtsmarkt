@@ -24,7 +24,7 @@ const DetailsPanel = ({
   const showSidebar = openPanel ? 'right-0 ' : '-right-full'
   return (
     <section
-      className={`w-[80vw] sm:w-[55vw] md:w-[40vw] lg:w-[40vw] h-full max-w-[540px] absolute z-[999] bg-app-secondary text-app-secondary top-0 text-app-primary p-2 lg:p-4 ease-in-out duration-500 ${showSidebar} shadow-2xl p-2 lg:p-4`}
+      className={`w-[80vw] sm:w-[55vw] md:w-[40vw] lg:w-[40vw] h-full max-w-[540px] absolute z-[999] bg-app-secondary top-0 text-app-primary p-2 lg:p-4 ease-in-out duration-500 ${showSidebar} shadow-2xl p-2 lg:p-4`}
     >
       <div className="w-full flex flex-row-reverse justify-between items-start">
         <button
@@ -54,12 +54,14 @@ const DetailsPanel = ({
           imageAlt="clock icon"
           sectionTitle="Öffnungszeiten"
           details={marketData?.oeffnungszeiten.split('\n')}
+          styleList
         />
         <DetailsPanelItem
           imageSrc={InfoIcon}
           imageAlt="info icon"
           sectionTitle="Informationen"
           details={marketData?.bemerkungen.split('\n')}
+          styleList
         />
         <DetailsPanelItem
           imageSrc={AddressIcon}

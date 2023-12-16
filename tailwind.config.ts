@@ -18,6 +18,9 @@ const config: Config = {
         christmas: ['var(--font-christmas)'],
         montserrat: ['var(--font-montserrat)'],
       },
+      listStyleType: {
+        square: 'square',
+      },
       colors: {
         'app-primary': '#c01717',
         'app-secondary': '#fbfbfb',

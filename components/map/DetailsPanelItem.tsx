@@ -7,6 +7,7 @@ interface DetailsPanelItemProps {
   sectionTitle: string
   details: string[]
   isLink?: boolean
+  styleList?: boolean
 }
 
 const DetailsPanelItem = ({
@@ -15,24 +16,28 @@ const DetailsPanelItem = ({
   sectionTitle,
   details,
   isLink = false,
+  styleList = false,
 }: DetailsPanelItemProps) => (
-  <div className="my-2 lg:my-4 flex gap-4 items-start">
+  <div className="lg:my-6 flex gap-4 items-start my-3">
     <ImageWrapper
       src={imageSrc}
       alt={imageAlt}
-      imageSize="h-[32px] w-[32px] lg:h-[40px] lg:w-[40px]"
+      imageSize="h-[32px] w-[32px] lg:h-[46px] lg:w-[46px]"
     />
     <div className="w-4/5">
       <h4 className="text-base lg:text-lg font-semibold">{sectionTitle}</h4>
-      <ul>
+      <ul className={`${styleList ? 'list-square px-2' : 'list-none'}`}>
         {details?.map((item, index) => (
-          <li className="text-sm lg:text-base" key={index}>
-            {isLink ? (
-              <Link href={item} target="_blank">
-                {item}
+          <li
+            className={`text-sm lg:text-base ${styleList ? 'ms-2' : ''}`}
+            key={index}
+          >
+            {isLink && item ? (
+              <Link href={item} target="_blank" className="underline">
+                <h6 className="break-all">{item}</h6>
               </Link>
             ) : (
-              <h6>{item}</h6>
+              <h6 className="break-all">{item}</h6>
             )}
           </li>
         ))}
