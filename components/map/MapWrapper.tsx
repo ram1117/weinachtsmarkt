@@ -54,6 +54,7 @@ const MapWrapper = () => {
           <MapMarkers
             marketData={item}
             setSelectedItem={setSelectedItem}
+            selectedItem={selectedItem}
             key={item.id}
           />
         ))}

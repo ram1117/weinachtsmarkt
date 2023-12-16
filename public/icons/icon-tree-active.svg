@@ -5,7 +5,7 @@
    viewBox="0 0 15.999 20"
    version="1.1"
    id="svg1"
-   sodipodi:docname="icon-tree-1.svg"
+   sodipodi:docname="icon-tree-active-1.svg"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,7 +24,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="16.5625"
      inkscape:cx="-3.3509434"
-     inkscape:cy="13.554717"
+     inkscape:cy="13.615094"
      inkscape:window-width="1920"
      inkscape:window-height="1015"
      inkscape:window-x="0"
@@ -60,7 +60,7 @@
      d="m 10.356,16.195 -0.379,0.78 -0.857,0.119 0.624,0.601 -0.152,0.854 0.765,-0.409 0.765,0.409 -0.152,-0.854 0.625,-0.601 -0.859,-0.119 z"
      id="path4" />
   <path
-     style="fill:#c01717;fill-opacity:1"
+     style="fill:#228b22;fill-opacity:1"
      d="M 4.699,14.18 C 3.664,14.18 2.656,13.926 2.034,13.508 4,12.563 5.517,11.086 6.067,9.468 5.554,9.468 4.54,9.256 4.133,8.925 5.899,7.948 7.311,6.136 8,4.529 c 0.689,1.607 2.101,3.419 3.866,4.396 -0.406,0.331 -1.421,0.543 -1.934,0.543 0.55,1.619 2.067,3.095 4.033,4.041 -0.622,0.417 -1.63,0.672 -2.664,0.672 0.361,1.439 2.312,3.508 4.698,4.334 C 13.831,19.506 10.916,20 8.003,20 5.083,20 2.164,19.503 0,18.515 2.387,17.688 4.336,15.62 4.699,14.18 Z"
      id="path3" />
   <path

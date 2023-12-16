@@ -16,3 +16,7 @@
 .leaflet-popup-tip {
   background: #c01717 !important;
 }
+
+.leaflet-marker-icon {
+  filter: drop-shadow(5px 5px 4px rgb(0 0 0 / 0.4));
+}
