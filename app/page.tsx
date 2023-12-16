@@ -1,7 +1,12 @@
+import dynamic from 'next/dynamic'
+const MapWrapper = dynamic(() => import('@/components/map/MapWrapper'), {
+  ssr: false,
+})
+
 const Home = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-      <h2>Weinachtsmarkt</h2>
+    <main className="flex flex-col items-center overflow-x-hidden">
+      <MapWrapper />
     </main>
   )
 }
