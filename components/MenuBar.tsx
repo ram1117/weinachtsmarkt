@@ -13,7 +13,7 @@ const MenuBar = () => (
         imageSize="h-6 w-6 lg:h-10 lg:w-10"
       />
       <h2 className="font-christmas font-bold text-app-secondary text-lg lg:text-2xl">
-        Weinachtsmarkt
+        Weihnachtsmarkt
       </h2>
     </div>
     <MusicButton />

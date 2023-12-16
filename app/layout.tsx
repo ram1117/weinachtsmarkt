@@ -4,10 +4,11 @@ import MenuBar from '@/components/MenuBar'
 import WeatherButton from '@/components/weather/WeatherButton'
 import { montserrat, mountainChristmas } from '@/atoms/fonts'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import { Analytics } from '@vercel/analytics/react'
 
 export const metadata: Metadata = {
-  title: 'Weinachtsmarkt Berlin',
-  description: 'Find winachtsmarkt in and around Berlin',
+  title: 'Weihnachtsmarkt',
+  description: 'Find weihnachtsmarkt in and around Berlin',
 }
 
 export default function RootLayout({
@@ -24,6 +25,7 @@ export default function RootLayout({
         <MenuBar />
         <WeatherButton />
         {children}
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
