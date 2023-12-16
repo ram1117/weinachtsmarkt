@@ -2,26 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.leaflet-popup-content-wrapper {
+  background: #c01717 !important;
+  color: #fbfbfb !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.leaflet-popup-close-button > * {
+  color: #fbfbfb !important;
+  font-weight: 800;
+  font-size: 1.6rem;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.leaflet-popup-tip {
+  background: #c01717 !important;
+}
+
+.leaflet-marker-icon {
+  filter: drop-shadow(5px 5px 4px rgb(0 0 0 / 0.4));
 }
