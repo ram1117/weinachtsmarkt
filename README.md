@@ -1,8 +1,8 @@
-# Weinachtsmarkt V1
+# Weihnachtsmarkt V1
 
 ## Description
 
-**Weinachtsmarkt** is a React SPA developed with NextJS framework, TypeScript and TailwindCSS. Used react-leaflet to create an interactive map. Different Christmas markets in and around Berlin are plotted on the map using react-leaflet. The user can find details about nearby Christmas markets by using their current location.
+**Weihnachtsmarkt** is a React SPA developed with NextJS framework, TypeScript and TailwindCSS. Used react-leaflet to create an interactive map. Different Christmas markets in and around Berlin are plotted on the map using react-leaflet. The user can find details about nearby Christmas markets by using their current location.
 
 The data is obtained from [Open Data Berlin](https://daten.berlin.de/datensaetze/berliner-weihnachtsm%C3%A4rkte) <br>
 The website design is heavily influenced by [Berliner Weihnachtsmarkt-Finder](https://weihnachtsmaerkte.odis-berlin.de/?id=)
